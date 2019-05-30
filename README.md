@@ -12,7 +12,7 @@ This package uses code from 'libsurvive' to interface with the HTC Vive Tracker.
 1. Install dependencies (libUSB, libX11, zlib, OpenCV)  
 	a. libUSB: sudo apt-get install libusb-1.0-0-dev  
 	b. libX11: sudo apt-get install libx11-dev  
-	c. OpenCV: sudo apt-get install libopencv-dev  
+	c. OpenCV: Uninstall ros-kinetic-opencv3 and sudo apt-get install libopencv-dev
 
 Clone vive_tracker_loc into a ROS workspace
 
