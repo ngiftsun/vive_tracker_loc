@@ -24,6 +24,11 @@ include_directories(include
 ###################################
 catkin_package()
 
+include_directories(
+  # include
+  ${catkin_INCLUDE_DIRS}
+)
+
 set(CMAKE_C_FLAGS "-std=gnu99")
 
 add_library(survive SHARED
